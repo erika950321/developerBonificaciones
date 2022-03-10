@@ -171,6 +171,7 @@
             this.label5.Size = new System.Drawing.Size(123, 18);
             this.label5.TabIndex = 8;
             this.label5.Text = "Casos Resueltos";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtCasosAbier
             // 
