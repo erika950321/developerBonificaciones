@@ -16,7 +16,7 @@ namespace Bonificaciones
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormBonificacion());
+            Application.Run(new Proyectos());
         }
     }
 }

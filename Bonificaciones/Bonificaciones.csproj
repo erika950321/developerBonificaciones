@@ -52,10 +52,43 @@
     <Compile Include="FormBonificacion.Designer.cs">
       <DependentUpon>FormBonificacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDispServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDispServicios.Designer.cs">
+      <DependentUpon>FormDispServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMesaAyuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMesaAyuda.Designer.cs">
+      <DependentUpon>FormMesaAyuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNivelesServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNivelesServicio.Designer.cs">
+      <DependentUpon>FormNivelesServicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proyectos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyectos.Designer.cs">
+      <DependentUpon>Proyectos.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FormBonificacion.resx">
       <DependentUpon>FormBonificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDispServicios.resx">
+      <DependentUpon>FormDispServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMesaAyuda.resx">
+      <DependentUpon>FormMesaAyuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNivelesServicio.resx">
+      <DependentUpon>FormNivelesServicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +99,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Proyectos.resx">
+      <DependentUpon>Proyectos.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
